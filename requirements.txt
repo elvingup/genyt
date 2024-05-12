@@ -1,0 +1,6 @@
+google.generativeai
+streamlit
+pytube
+openai-whisper
+ffmpeg-python
+semchunk

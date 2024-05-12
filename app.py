@@ -37,6 +37,8 @@ st.markdown("""
 
 # -----------------------------------------------------------------------------------------------
 
+os.path.makedirs('data', exist_ok=True)
+
 with st.sidebar:
     st.markdown('# GenYT')
 

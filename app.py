@@ -45,7 +45,7 @@ with st.sidebar:
         if st.radio('**1)** Modo de seleção', ['Quero inserir um link','Selecionar um exemplo']) == 'Quero inserir um link':
             url = st.text_input('**2)** Insira o URL do video do Youtube', value='https://www.youtube.com/watch?v=sal78ACtGTc')
         else:
-            opts = ['https://www.youtube.com/watch?v=sal78ACtGTc','https://www.youtube.com/watch?v=dDUC-LqVrPU']
+            opts = ['https://www.youtube.com/watch?v=94yuIVdoevc', 'https://www.youtube.com/watch?v=sal78ACtGTc']
             url = st.selectbox('**2)** Insira o URL do video do Youtube', opts, index=None, placeholder="Selecion um link")
     
     if url:

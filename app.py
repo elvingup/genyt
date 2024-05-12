@@ -1,7 +1,7 @@
 import os
 import streamlit as st
 
-from embedder import *
+# from embedder import *
 from generator import *
 from utils import *
 
